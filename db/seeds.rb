@@ -5,7 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-<<<<<<< HEAD
 
 20.times do
   question = Faker::Lorem.question
@@ -20,5 +19,4 @@ Poll.all.each do |poll|
     Option.create(text: text, poll_id: poll.id)
   end
 end
-=======
->>>>>>> ab62265 (add new rails project and add models for User, Poll, Option)
+

@@ -6,10 +6,6 @@ class PollsController < ApplicationController
     @polls = Poll.all
 
     render json: @polls, :include => [:options]
-<<<<<<< HEAD
-=======
-    # render :json => @programs, :include => {:insurer => {:only => :name}}, :except => [:created_at, :updated_at]
->>>>>>> ab62265 (add new rails project and add models for User, Poll, Option)
   end
 
   # GET /polls/1

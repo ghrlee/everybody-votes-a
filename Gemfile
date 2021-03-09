@@ -15,10 +15,7 @@ gem 'puma', '~> 3.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-<<<<<<< HEAD
 gem 'faker'
-=======
->>>>>>> ab62265 (add new rails project and add models for User, Poll, Option)
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
