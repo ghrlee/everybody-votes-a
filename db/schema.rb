@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_03_09_071917) do
+=======
+ActiveRecord::Schema.define(version: 2021_03_09_044842) do
+>>>>>>> ab62265 (add new rails project and add models for User, Poll, Option)
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +32,11 @@ ActiveRecord::Schema.define(version: 2021_03_09_071917) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
+=======
+    t.bigint "option_id"
+    t.index ["option_id"], name: "index_polls_on_option_id"
+>>>>>>> ab62265 (add new rails project and add models for User, Poll, Option)
   end
 
   create_table "users", force: :cascade do |t|
