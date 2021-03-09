@@ -6,7 +6,6 @@ class PollsController < ApplicationController
     @polls = Poll.all
 
     render json: @polls, :include => [:options]
-    # render :json => @programs, :include => {:insurer => {:only => :name}}, :except => [:created_at, :updated_at]
   end
 
   # GET /polls/1
